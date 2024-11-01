@@ -25,7 +25,7 @@ function fetchUpdate()
     local res, code, response_headers = http.request{
         url = serverurl,
         headers = {
-            ["Authorization"] = "token " .. github_token  -- Use the personal access token
+            ["Authorization"] = "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" .. github_token  -- Use the personal access token
         },
         sink = ltn12.sink.table(response_body)
     }
