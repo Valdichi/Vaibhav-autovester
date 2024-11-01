@@ -8,7 +8,7 @@ local http = require("socket.http")
 local ltn12 = require("ltn12")
 
 -- Variables
-local serverURL = "https://raw.githubusercontent.com/Valdichi/Vaibhav-autovester/refs/heads/main/autovestupdater.lua?token=GHSAT0AAAAAACZ2PL24GFWJHRIVENKRGKU4ZZERNKQ"  -- URL to check for updates
+local serverURL = "https://raw.githubusercontent.com/Valdichi/Vaibhav-autovester/refs/heads/main/autovestupdater.lua?token=GHSAT0AAAAAACZ2PL24NTQXGZFOGBRGK4GCZZESCIA"  -- URL to check for updates
 Activate = false
 
 -- Function to fetch updates from the server
