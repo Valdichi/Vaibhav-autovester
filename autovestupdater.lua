@@ -8,8 +8,8 @@ local http = require("socket.http")
 local ltn12 = require("ltn12")
 
 -- Variables
-local serverURL = "http://example.com/update"  -- URL to check for updates
-Activate = false
+local serverURL = "https://raw.githubusercontent.com/Valdichi/Vaibhav-autovester/refs/heads/main/autovestupdater.lua?token=GHSAT0AAAAAACZ2PL24GFWJHRIVENKRGKU4ZZERNKQ"  -- URL to check for updates
+Activate = true
 
 -- Function to fetch updates from the server
 function updateCheck()
