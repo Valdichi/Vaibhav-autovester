@@ -38,8 +38,8 @@ end
 function main()
     if not isSampLoaded() or not isSampfuncsLoaded() then return end
     while not isSampAvailable() do wait(100) end
-    sampAddChatMessage("{808080}(Autovest for BHT/TC/LA (Edited by Vaibhav) - /aguard)")
-    sampRegisterChatCommand("aguard", cmd)
+    sampAddChatMessage("{808080}(Autovest for BHT/TC/LA (Edited by Vaibhav) - /avest)")
+    sampRegisterChatCommand("avest", cmd)
 
     -- Initial check for updates on startup
     updateCheck()
