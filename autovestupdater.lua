@@ -38,8 +38,8 @@ end
 function main()
     if not isSampLoaded() or not isSampfuncsLoaded() then return end
     while not isSampAvailable() do wait(100) end
-    sampAddChatMessage("{808080}(Autovest for BHT/TC/LA (Edited by Vaibhav) - /vaib)")
-    sampRegisterChatCommand("vaib", cmd)
+    sampAddChatMessage("{808080}(Autovest for BHT/TC/LA (Edited by Vaibhav) - /aguard)")
+    sampRegisterChatCommand("aguard", cmd)
 
     -- Initial check for updates on startup
     updateCheck()
@@ -71,7 +71,7 @@ end
 
 -- Function to get the closest player ID with specific conditions
 function getClosestPlayerId(maxdist, ArmorCheck)
-    local GangSkins = {303,214,94,240,124,93,229,170,121,228,224,231,235,108,109,110,292,56,236,90,234,120,141,169,208,294,59,117,118}
+    local GangSkins = {303,214,94,240,124,93,229,170,121,228,224,231,235,108,109,110,292,56,236,90,234,120,141,169,208,294,117,118}
     local maxplayerid = sampGetMaxPlayerId(false)
     for i = 0, maxplayerid do
         if sampIsPlayerConnected(i) then
