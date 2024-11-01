@@ -41,8 +41,8 @@ function main()
     if not isSampLoaded() or not isSampfuncsLoaded() then return end
     while not isSampAvailable() do wait(100) end
     
-    sampAddChatMessage("{808080}(Autovest for BHT/TC/LA (Edited by Vaibhav) - /vaib)")
-    sampRegisterChatCommand("vaib", cmd)
+    sampAddChatMessage("{808080}(Autovest for BHT/TC/LA (Edited by Vaibhav) - /avest)")
+    sampRegisterChatCommand("avest", cmd)
 
     -- Check for updates if Activate is true
     if Activate then
